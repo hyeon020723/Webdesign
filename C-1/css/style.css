@@ -1,0 +1,175 @@
+@charset "utf-8";
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  color: #333;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: #fff;
+}
+#wrap{
+  width: 1000px;
+  height: 650px;
+  float: left;
+  position: relative;
+}
+header{
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+header > .headerLogo{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+header > .headerLogo > a > img{
+  width: 100%;
+  margin-top: 30px;
+}
+header > .menu{
+  width: 100%;
+  height: 500px;
+}
+header > .menu > .main{
+  width: 150px;
+  margin-left: 25px;
+  position: absolute;
+
+}
+header > .menu > .main > li > a{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+header > .menu > .main > li > a :hover{
+  background-color: orange;
+}
+.sub > li > a{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: none;
+}
+.sub > li > a :hover{
+  background-color: orange;
+}
+.bodywrap{
+  float: left;
+  width: 800px;
+  height: 550px;
+}
+.bodywrap > .imgslide{
+  width: 100%;
+  height: 350px;
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+}
+.imgslide > a > span{
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 600px;
+  padding: 5px;
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+}
+.bodywrap > .container{  
+  width: 800px;
+  height: 200px;
+  background-color:wheat;
+}
+.bodywrap > .container > div{
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.contents{
+  width: 100%;
+  height: 100%;
+}
+.tab {
+  width: 100%;
+  height: 100%;
+}
+.tabmenu{
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.tabmenu>li{
+  float: left;
+  width: 100px;
+  height: 30px;
+}
+.tabmenu>li>a{
+  display: block;
+  background-color: #fff;
+  text-align: center;
+}
+.tabmenu>div{
+  float: left;
+}
+.gallery > ul > li > a>img{
+  float: left;
+}
+.banner > a > img, .link > a > img{
+  width: 100%;
+  height: 100%;
+}
+.banner > a > span, .link > a > span{
+  position: absolute;
+  color: #fff;
+  background-color: #333;
+  padding: 5px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+footer{
+  float: left;
+  width: 800px;
+  height: 100px;
+}
+footer > .footerLogo{
+  float: left;
+  width: 200px;
+  height: 100%;
+  margin-top: 30px;
+
+}
+footer > .footerLogo > a > img{
+  width: 100%;
+}
+footer > .footerContainer{
+  width: 600px;
+  height: 100%;
+  float: left;
+}
+footer > .footerContainer > .footerMenu{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+footer > .footerContainer > .footerMenu > ul > li{
+  float: left;
+  width: 33%;
+}
+footer > .footerContainer > .copyright{
+  width: 100%;
+  height: 50px; 
+  line-height: 50px; 
+  text-align: center;
+
+}

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0 ;
+  list-style: none;
+  box-sizing: border
+}
+body a{
+  text-decoration: none;
+  color: #333;
+}
+.wrap{
+  width: 1200px;
+  height: 700px;
+  background-color: #fff;
+  position: relative;
+}
+header{
+  position: relative;
+  width: 1200px;
+  height: 100px;
+}
+.headerLogo{
+  float: left;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+}
+.nav{
+  float: right;
+  width: 1000px;
+  height: 100px;
+}
+.menu{
+  margin-left: 150px;
+  margin-top: 30px;
+  width: 800px;
+  position: absolute;
+  z-index: 1;
+}
+.mainmenu{
+  float: left;
+}
+.mainmenu > li > a, .submenu > li > a{
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  background-color: rgb(151, 151, 151);
+}
+.submenu{
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.mainmenu > li > a:hover, 
+.submenu> li > a:hover{
+  background-color: aqua;}
+.container{
+  width: 1200px;
+  height: 500px;
+}
+.imgslide{
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  overflow: hidden;
+}
+.imglist > a > span{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 300px;
+}
+.con{
+  width: 1200px;
+  height: 200px;
+}
+.con > div{
+  float: left;
+  width: 400px;
+  height: 200px;
+}
+.contentsMenu{
+  height: 30px;
+}
+.contentsMenu > ul > li > span{
+  height: 30px;
+  width: 30%;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+  float: left;
+}
+.contentsCon{
+  float: left;
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(211, 211, 211);
+}
+.contentsCon > ul > li > a > img{
+  padding: 15px;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.banner > a > h3 {
+  width: 100%;
+  line-height: 200px;  
+  float: left;
+  display: block;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+}
+.link{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.link > a > img{
+  padding: 15px;
+  width: 80px;
+  border-radius: 50%;
+}
+#layer{
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+
+}
+#layer.active{
+  display: block;
+}
+#layer>.layerUp{
+  margin-top: 200px;
+  margin-left: 350px;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+#layer>.layerUp>.layerTitle{
+  padding-top: 50px;
+  font-weight: bold;
+}
+#layer>.layerUp>.layerContent{
+  padding: 20px;
+}
+#layer>.layerUp>.btn{
+  float: right;
+  background-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+footer{
+  width: 1200px;
+  height: 100px;
+}
+footer > .footerLogo{
+  float: left;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+}
+footer > .footerCon{
+  float: left;
+  width: 1000px;
+  height: 100px;
+}
+.footerCon > div{
+  width: 1000px;
+  height: 50px;
+}
+.footerMenu{
+  float: left;
+  text-align: center;
+}
+.footerMenu > ul > li {
+  float: left;
+  line-height: 50px;
+  width: 30%;
+}
+.copyright{
+  float: left;
+  line-height: 50px;
+  text-align: center;
+}

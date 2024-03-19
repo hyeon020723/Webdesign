@@ -1,0 +1,211 @@
+@charset "utf-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.wrap {
+  position: relative;
+  width: 1200px;
+  height: 700px;
+}
+header {
+  position: relative;
+  height: 100px;
+  background-color: darkkhaki;
+}
+header > .top_logo {
+  float: left;
+  width: 200px;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+header > .top_logo > a > img {
+  padding: 25px 0px;
+}
+header > .menu {
+  position: absolute;
+  z-index: 1;
+  float: left;
+  display: block;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 450px;
+  background-color: khaki;
+}
+header > .menu > .mainmenu > li {
+  width: 150px;
+  float: left;
+}
+header > .menu > .mainmenu > li > a {
+  margin: 0;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+header > .menu > .mainmenu > li:hover {
+  background-color: white;
+}
+header > .menu > .mainmenu > li > .submenu > a {
+  float: left;
+  background-color: khaki;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: none;
+}
+header > .menu > .mainmenu > li > .submenu > a:hover {
+  text-decoration: underline;
+}
+.content {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+.content > .slide {
+  width: 100%;
+  height: 300px;
+  background-color: aquamarine;
+  position: relative;
+  overflow: hidden;
+}
+.content > .imglist {
+  width: 100%;
+  height: 900px;
+  float: left;
+}
+.imglist > ul > li > a > img {
+  display: block;
+}
+.imglist span {
+  width: 100%;
+  margin-top: 150px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+.content > .con {
+  width: 100%;
+  height: 200px;
+  background-color: darkkhaki;
+}
+.notice,
+.gallery {
+  float: left;
+  width: 400px;
+  height: 100%;
+}
+.tab_menu {
+  background-color: khaki;
+  float: left;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+.tab_con {
+  background-color: khaki;
+
+  float: left;
+  width: 100%;
+  height: 170px;
+}
+.tab_con > ul > a > li {
+  margin-left: 20px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: underline;
+}
+.galleryimg {
+  float: left;
+  padding: 20px;
+}
+.content > .con > .banner {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+.banner_text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  line-height: 200px;
+}
+#modal {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: #333;
+  display: none;
+}
+#modal.active {
+  display: block;
+}
+#modal > .modalUp {
+  margin-top: 100px;
+  padding: 50px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+#modal > .modalUp > .modalTitle {
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+}
+#modal > .modalUp > .btn {
+  float: right;
+  padding: 10px;
+  margin: 20px;
+
+  background-color: #ccc;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-color: darkkhaki;
+}
+footer > .bottom_logo {
+  width: 200px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  overflow: hidden;
+  float: left;
+}
+footer > .copyright {
+  font-style: italic;
+  width: 800px;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  text-align: center;
+}
+footer > .familysite {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  text-align: center;
+}
+footer > .familysite > select {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+}

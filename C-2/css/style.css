@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #333;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    background-color: #fff;
+    width: 1000px;
+    height: 650px;
+    float: left;
+    position: relative;
+}
+header{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+header > .logo{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+header > .logo>a>img{
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+header > .nav{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+header > .nav > .menu{
+    margin-left: 25px;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+}
+.menu > .main > li>a
+{    
+    border-bottom: 3px solid pink;
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.menu > .main > li:hover > a{
+    background-color: pink;
+}
+.sub > li{
+    display: none;
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.sub > li:hover{
+    background-color: thistle;
+}
+#bodywrap{
+    width: 800px;
+    height: 550px;
+    float: left;
+}
+#bodywrap > .imgslide{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;    
+    position: relative;
+}
+#bodywrap > .imgslide>a{
+    width: 100%;
+    height: 100%;    
+}
+#bodywrap > .imgslide>a>span{
+    font-size: 15px;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    background-color: #333;
+    margin-top: 250px;
+    margin-left: 500px;
+    display: block;
+}
+#bodywrap > .container{
+    width: 100%;
+    height: 200px;
+}
+#bodywrap > .container > .notice, .gallery{
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.tabmenu{
+    border: 1px solid pink;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.tabcon{
+    width: 100%;
+    text-decoration: underline;
+    height: 170px;
+    line-height: 30px;
+    border: 1px solid pink;
+}
+.tabcon>ul>li>a>img{
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+}
+#bodywrap > .container > .link{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: bisque;
+    overflow: hidden;
+    position: relative;
+}
+.link > a>span{
+    position: absolute;
+    color: #333;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.layer{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.layer.active{
+    display: block;
+}
+.layerUp{
+    border: 3px solid pink;
+    background-color: #fff;
+    margin-top: 150px;
+    margin-left: 300px;
+    width: 500px;
+    height: 280px;
+    text-align: center;
+}
+.layerTitle{
+    font-weight: bold;
+    padding: 15px;
+}
+.layerContents{
+    padding: 15px;
+    line-height: 30px;
+}
+.btn{
+    float: right;
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+    padding: 5px 10px;
+}
+footer{
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: #ccc;
+}
+footer > .copyright{
+    float: left;
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+footer > .contents{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+footer > .contents > .sns, .familysite{
+    width: 100%;
+    height: 50px;
+}
+.sns>a>img{
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+} 
+
+.familysite{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}

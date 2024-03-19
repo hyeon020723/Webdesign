@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+#wrap {
+  width: 1200px;
+  text-align: center;
+  height: 700px;
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+header > .logo {
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-color: blue;
+  text-align: center;
+}
+.logo > a > img {
+  margin-top: 30px;
+}
+header > .nav {
+  position: relative;
+  float: left;
+  width: 1000px;
+  height: 100px;
+}
+.menu {
+  margin-top: 30px;
+  margin-left: 100px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 800px;
+}
+.menu > .main > li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  font-size: 15px;
+  background-color: lightblue;
+}
+.main > li > a {
+  color: #fff;
+}
+.main > li:hover {
+  background-color: blue;
+}
+.sub > li {
+  display: none;
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+}
+.sub > li > a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.content {
+  width: 1200px;
+  height: 500px;
+}
+.content > .imgslide {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: bisque;
+}
+.imgslide > .imglist {
+  float: left;
+  height: 900px;
+}
+.imglist > a > span {
+  position: absolute;
+  display: block;
+  color: #fff;
+  background-color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 150px;
+  margin-left: 50%;
+}
+.content > .container {
+  width: 100%;
+  height: 200px;
+}
+.container > div {
+  width: 400px;
+  height: 100%;
+  float: left;
+}
+.tabmenu {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  background-color: lightblue;
+}
+.tabcon {
+  border-top: 3px solid lightblue;
+  padding: 10px 30px;
+  width: 340px;
+  height: 140px;
+  background-color: #fff;
+}
+.notice > .tabcon > a {
+  text-align: left;
+  float: left;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.notice > .tabcon > a > span {
+  float: right;
+}
+.gallery > .tabcon > a > img {
+  padding: 30px 0px;
+  width: 100px;
+}
+.link {
+  position: relative;
+}
+.link > a > span {
+  position: absolute;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 50px;
+  top: 50%;
+  left: 50%;
+}
+#modal {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: #33333350;
+  display: none;
+}
+#modal.active {
+  display: block;
+}
+#modal > .modalUp {
+  margin: 200px auto;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+.modalTitle {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.modalContent {
+  display: block;
+  line-height: 30px;
+  padding: 20px;
+}
+.btn {
+  float: right;
+  background-color: #ccc;
+  padding: 5px 10px;
+  margin: 20px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+}
+footer > .copyright {
+  float: left;
+  width: 1000px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+footer > .footcontainer {
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+.footcontainer > .sns {
+  width: 100%;
+  height: 50px;
+}
+.sns > a > img {
+  width: 40px;
+  margin: 5px;
+}
+.familysite {
+  width: 100%;
+  height: 50px;
+}
+.familysite > select {
+  margin-top: 20px;
+}
